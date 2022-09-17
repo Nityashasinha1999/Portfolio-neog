@@ -267,6 +267,11 @@ a, a:active, a:hover, a:link, a:visited {
 .mb-4 {
     margin-bottom: 1.5rem!important;
 }
+.view__more{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 /*contact*/
 #contact {
     background-image: linear-gradient(135deg,#02aab0,#00cdac);
@@ -310,6 +315,14 @@ a, a:active, a:hover, a:link, a:visited {
     color: white !important;   
     background: #00CDAC ;
     transition: all .3s ease-in-out;
-
     border-radius: 50%;
+}
+.blogs-img{
+    height: 200px;
+}
+.blogs__wrap{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
