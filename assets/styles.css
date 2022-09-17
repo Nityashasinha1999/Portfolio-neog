@@ -11,6 +11,10 @@ a, p {
     font-family: Montserrat,sans-serif;
     font-size: 1.2rem;
 }
+a{
+    text-decoration: none;
+    border-bottom-color: transparent ;
+}
 ul ,li{
     list-style: none;
 }
@@ -284,7 +288,28 @@ a, a:active, a:hover, a:link, a:visited {
     text-align: center;
 }
 
-#contact .contact-wrapper__text {
+
+.contact-wrapper__icon{
+    display: flex;
     margin-bottom: 2rem;
-    text-align: center;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+}
+.contact-wrapper__icon > a{
+    color: white;
+    font-size: 0.8rem !important;
+}
+.fa-inverse{
+    color: #00CDAC !important;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+
+}
+.fa-stack:hover .fa-inverse{
+    color: white !important;   
+    background: #00CDAC ;
+    transition: all .3s ease-in-out;
+
+    border-radius: 50%;
 }
